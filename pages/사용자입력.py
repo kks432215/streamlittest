@@ -14,7 +14,7 @@ st.title("사용자 입력 실습")
 st.markdown("아래 입력 칸들을 채워보세요. 입력한 값은 실시간으로 바로 아래에 표시됩니다.")
 
 # 1. 텍스트 입력
-name = st.text_input("이름을 입력하세요")
+name = st.text_input("이름을 입력하세용")
 
 # 2. 숫자 입력
 age = st.number_input("나이를 입력하세요", min_value=0, max_value=120, step=1)
